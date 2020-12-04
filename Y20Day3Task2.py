@@ -22,9 +22,11 @@ dy = [1, 1, 1, 1, 2]  # change in y
 lineLength = len(my_array[1])
 x = 0  # x position
 y = 0  # y position
+
 for slope in range(5):
     x = 0  # x position
     y = 0  # y position
+
     for i in range(len(my_array)-1):
         x += dx[slope]  # move to next location
         y += dy[slope]
@@ -36,29 +38,15 @@ for slope in range(5):
             break
         #print("iteration: " + str(i))
         #print(my_array[y][x])
+
         if '#' == my_array[y][x]:
             hitTrees[slope] += 1
 
     print(hitTrees)
+
 product = 1
 for p in range(len(hitTrees)):
     product = product * hitTrees[p]
 print(product)
-#my array y x
-#aline = my_array[1][0]
-#print(aline)
-#print(my_array[1])
-    #Check Tree status
-
-
-
-    #print("iteration:" + str(i))
-    #print(x)
-    #print(y)
-
-
-
-
-
 
 f.close()
