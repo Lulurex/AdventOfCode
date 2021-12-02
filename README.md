@@ -1,4 +1,4 @@
-# AdventOfCode
+# AdventOfCode2020
 Advent of Code Dec programming
 This is my python project that I'm doing in my free time to use the Python I used in highschool and solidify my skills in it. 
 As of starting this, I know about basic loops and lists and arrays. 
